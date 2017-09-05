@@ -13,7 +13,8 @@
               "type": "none"
             },
             "selector": "td",
-            "selectIndex": 3
+            "selectIndex": 3,
+            "control": "property.innerText"
           },
           "summary": {
             "type": "string",
