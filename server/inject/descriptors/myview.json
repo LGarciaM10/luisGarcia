@@ -14,7 +14,7 @@
       "selectContains": "View Issues"
     },
     "logoutlink": {
-      "type": "string",
+      "type": "action",
       "selector": "a[href]",
       "control": "action.link",
       "selectContains": "Logout"
