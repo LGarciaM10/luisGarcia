@@ -4,5 +4,10 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "63472063",
   "uiCommonVersion": "5.1.2",
-  "creatorId": "gdlgalui"
+  "creatorId": "gdlgalui",
+  "id": "mantisluisgarcia",
+  "previewImageURL": "/previews/63472063-mantisluisgarcia/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/LGarciaM10/mantisLuisGarcia",
+  "creatorName": "Luis Fernando Garcia Miranda"
 }
