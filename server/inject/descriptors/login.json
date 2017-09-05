@@ -53,7 +53,7 @@
       "type": "identifier",
       "selector": ".form-title",
       "control": "exists",
-      "selectContains": "Login"
+      "selectContains": "login"
     }
   },
   "connect": []
