@@ -54,7 +54,7 @@
       "frameSelector": [
         null
       ],
-      "selectorAll": "#buglist tr[bgcolor]"
+      "selectorAll": "#buglist tbody tr"
     }
   },
   "connect": []
