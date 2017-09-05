@@ -48,7 +48,7 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": "#buglist",
+      "selectorAll": "#buglist tr[bgcolor]",
       "frameSelector": [
         null
       ]
