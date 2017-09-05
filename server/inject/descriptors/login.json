@@ -32,7 +32,6 @@
       "update": {
         "type": "none"
       },
-      "selector": "font",
       "control": "text"
     },
     "submit": {
