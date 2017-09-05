@@ -55,6 +55,11 @@
         null
       ],
       "selectorAll": "#buglist tr"
+    },
+    "test": {
+      "type": "string",
+      "selector": "#buglist",
+      "control": "property.innerText"
     }
   },
   "connect": []
