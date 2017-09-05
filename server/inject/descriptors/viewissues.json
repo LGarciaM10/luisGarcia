@@ -70,6 +70,14 @@
       "control": "exists",
       "selector": ".floatleft",
       "selectContains": "Viewing Issues"
+    },
+    "test": {
+      "type": "string",
+      "selector": ".floatleft",
+      "control": {
+        "fn": "hola;",
+        "control": "text"
+      }
     }
   },
   "connect": [
