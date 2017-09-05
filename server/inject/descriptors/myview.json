@@ -12,12 +12,6 @@
       "selector": "a[href]",
       "control": "action.link",
       "selectContains": "View Issues"
-    },
-    "logoutlink": {
-      "type": "action",
-      "selector": "a[href]",
-      "control": "action.link",
-      "selectContains": "Logout"
     }
   },
   "connect": [
