@@ -54,7 +54,7 @@
       "frameSelector": [
         null
       ],
-      "selectorAll": "#buglist tbody tr"
+      "selectorAll": "#buglist tr"
     }
   },
   "connect": []
