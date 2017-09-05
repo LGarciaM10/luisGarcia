@@ -51,10 +51,10 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": "#buglist tr[bgcolor]",
       "frameSelector": [
         null
-      ]
+      ],
+      "selectorAll": "#buglist"
     }
   },
   "connect": []
