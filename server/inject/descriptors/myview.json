@@ -16,7 +16,7 @@
     "logoutlink": {
       "type": "string",
       "selector": "a[href]",
-      "control": "property.innerText",
+      "control": "action.link",
       "selectContains": "Logout"
     }
   },
