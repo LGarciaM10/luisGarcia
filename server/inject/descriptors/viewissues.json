@@ -54,7 +54,7 @@
       "frameSelector": [
         null
       ],
-      "selectorAll": "#buglist"
+      "selectorAll": "#buglist tbody tr"
     },
     "test": {
       "type": "string",
