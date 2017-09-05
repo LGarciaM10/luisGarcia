@@ -12,6 +12,12 @@
       "selector": "a[href]",
       "control": "action.link",
       "selectContains": "View Issues"
+    },
+    "logoutlink": {
+      "type": "string",
+      "selector": "a[href]",
+      "control": "property.innerText",
+      "selectContains": "Logout"
     }
   },
   "connect": [
