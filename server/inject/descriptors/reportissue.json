@@ -36,8 +36,9 @@
     },
     "isReportIssue": {
       "type": "identifier",
-      "selector": "[name=\"description\"]",
-      "control": "text"
+      "control": "exists",
+      "selector": ".form-title",
+      "selectContains": "Enter Report Details"
     }
   },
   "connect": [
