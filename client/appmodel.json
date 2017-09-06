@@ -121,5 +121,23 @@
         }
       }
     }
+  },
+  "reportissue": {
+    "type": "object",
+    "comment": "reportissue",
+    "properties": {
+      "category": {
+        "type": "select"
+      },
+      "priority": {
+        "type": "select"
+      },
+      "summary": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      }
+    }
   }
 }
