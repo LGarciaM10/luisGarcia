@@ -16,7 +16,8 @@
             <label class="item  item-input item-select-icon positive-icon"
                 data-comp-id="selectInput.1" style="border-radius: 10px;">
                 <span class="input-label positive required"></span>
-                <select></select>
+                <select ng-model="data.category.selected"
+                    ng-options="item as item.label for item in data.category.options"></select>
             </label>
         </div>
         <div data-comp-id="div.2" style="margin: 2% 10%;">
@@ -37,7 +38,7 @@
             <label class="item item-input" data-comp-id="textInput.1"
                 style="margin: 2px 0px; border-radius: 10px;">
                 <span class="input-label required"></span>
-                <input ng-model="data.Phone" type="text">
+                <input ng-model="data.summary" type="text">
             </label>
         </div>
         <div data-comp-id="div.4" style="margin: 2% 10%;">
@@ -45,7 +46,7 @@
             <label class="item item-input item-stacked-label light-bg"
                 data-comp-id="textAreaInput.1" style="border-radius: 10px;">
                 <span class="input-label positive required"></span>
-                <textarea rows="4"></textarea>
+                <textarea ng-model="data.description" rows="4"></textarea>
             </label>
         </div>
         <div data-comp-id="div.5" style="width: 80%; margin: 10%;">

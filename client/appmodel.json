@@ -127,16 +127,28 @@
     "comment": "reportissue",
     "properties": {
       "category": {
-        "type": "select"
+        "type": "select",
+        "update": {
+          "type": "none"
+        }
       },
       "priority": {
-        "type": "select"
+        "type": "select",
+        "update": {
+          "type": "none"
+        }
       },
       "summary": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "description": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       }
     }
   }
