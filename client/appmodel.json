@@ -119,6 +119,9 @@
         "update": {
           "type": "none"
         }
+      },
+      "goReportIssue": {
+        "type": "action"
       }
     }
   },
