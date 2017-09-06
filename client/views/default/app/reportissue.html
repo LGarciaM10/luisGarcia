@@ -27,8 +27,27 @@
         </div>
         <div data-comp-id="div.3" style="margin: 2% 10%;">
             <div class=" light" data-comp-id="text.3" style="font-size: 18px;">Description</div>
+            <label class="item item-input item-stacked-label light-bg"
+                data-comp-id="textAreaInput.1">
+                <span class="input-label required positive"></span>
+                <textarea ng-model="data.description" rows="4"></textarea>
+            </label>
         </div>
-        <div data-comp-id="div.4" style="width: 80%; margin: 10%;">
+        <div data-comp-id="div.4" style="margin: 2% 10%;">
+            <label class="item" data-comp-id="takePhoto.1"
+                ng-class="{'item-input item-button-right': style === 'control'}"
+                take-photo="control">
+                <span class="input-label" ng-if="style === 'control'">Take Photo</span>
+                <button class="button button-icon" ng-if="style === 'control'">
+                    <i class="icon positive-icon ion-camera"></i>
+                </button>
+                <input disabled="" ng-if="style === 'control'" type="text">
+                <button class="button button-block button-positive nomargin"
+                    ng-if="style === 'button'">Take Photo</button>
+                <textarea class="not-visible"></textarea>
+            </label>
+        </div>
+        <div data-comp-id="div.5" style="width: 80%; margin: 10%;">
             <div class="row" data-comp-id="row.1" style="margin: 0px;">
                 <div class="col" data-comp-id="column.1">
                     <button class="button button-block" data-comp-id="button.3"
