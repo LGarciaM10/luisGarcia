@@ -8,18 +8,18 @@
             <button class="button button-icon ion-home" data-comp-id="button.2"></button>
         </ion-nav-buttons>
     </ion-nav-bar>
-    <ion-content class=" positive-bg" data-comp-id="ionic-content.1">
+    <ion-content class=" stable-bg" data-comp-id="ionic-content.1">
         <!--Form Contents-->
         <div data-comp-id="div.1" style="margin: 10% 10% 4%;">
             <div class=" light" data-comp-id="text.1" style="font-size: 18px;">Category</div>
             <select-list data-comp-id="selectList.1" label-class="required"
-                ng-model="data.category"></select-list>
+                ng-model="data.category">Category</select-list>
         </div>
         <div data-comp-id="div.2" style="margin: 2% 10% 4%;">
             <div class=" light" data-comp-id="text.2" style="font-size: 18px;">Summary</div>
             <label class="item item-input" data-comp-id="textInput.1"
-                style="margin: 2px 0px; border-radius: 10px;">
-                <span class="input-label required"></span>
+                style="margin: 2px 0px;">
+                <span class="input-label required">Summary</span>
                 <input ng-model="data.summary" type="text">
             </label>
         </div>
@@ -27,7 +27,7 @@
             <div class=" light" data-comp-id="text.3" style="font-size: 18px;">Description</div>
             <label class="item item-input item-stacked-label light-bg"
                 data-comp-id="textAreaInput.1">
-                <span class="input-label required positive"></span>
+                <span class="input-label required">Description</span>
                 <textarea ng-model="data.description" rows="4"></textarea>
             </label>
         </div>
