@@ -36,6 +36,9 @@
       "type": "action",
       "selector": "input.button[value=\"Submit Report\"]",
       "control": "action.button"
+    },
+    "cancel": {
+      "type": "action"
     }
   },
   "connect": [
