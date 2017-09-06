@@ -30,7 +30,7 @@
       "type": "identifier",
       "control": "exists",
       "selector": ".form-title",
-      "selectContains": "Enter Report Details"
+      "selectContains": "Enter"
     },
     "submit": {
       "type": "action",
