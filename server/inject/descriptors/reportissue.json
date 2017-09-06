@@ -14,19 +14,25 @@
       "type": "select",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": "[name=\"priority\"]",
+      "control": "select"
     },
     "summary": {
       "type": "string",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": "[name=\"summary\"]",
+      "control": "text"
     },
     "description": {
       "type": "string",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": "[name=\"description\"]",
+      "control": "text"
     }
   },
   "connect": []
