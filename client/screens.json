@@ -46,7 +46,8 @@
       "id": "reportissue",
       "name": "reportissue",
       "sourceScreenId": "app.formsmall.formsmallcaptivating",
-      "sourceAppId": "universaltemplates"
+      "sourceAppId": "universaltemplates",
+      "model": "reportissue"
     }
   ],
   "sourceAppId": "_blank",
