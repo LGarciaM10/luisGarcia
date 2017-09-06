@@ -33,6 +33,11 @@
       },
       "selector": "[name=\"description\"]",
       "control": "text"
+    },
+    "isReportIssue": {
+      "type": "identifier",
+      "selector": "[name=\"description\"]",
+      "control": "text"
     }
   },
   "connect": [
