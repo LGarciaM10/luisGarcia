@@ -70,6 +70,12 @@
       "control": "exists",
       "selector": ".floatleft",
       "selectContains": "Viewing Issues"
+    },
+    "goReportIssue": {
+      "type": "action",
+      "selector": "a[href]",
+      "selectContains": "Report Issue",
+      "control": "action.link"
     }
   },
   "connect": [
