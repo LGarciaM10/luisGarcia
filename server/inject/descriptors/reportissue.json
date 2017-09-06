@@ -10,14 +10,6 @@
       "selector": "[name=\"category_id\"]",
       "control": "select"
     },
-    "priority": {
-      "type": "select",
-      "update": {
-        "type": "none"
-      },
-      "selector": "[name=\"priority\"]",
-      "control": "select"
-    },
     "summary": {
       "type": "string",
       "update": {
