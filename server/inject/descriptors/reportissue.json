@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "comment": "reportissue",
+  "properties": {
+    "category": {
+      "type": "select",
+      "update": {
+        "type": "none"
+      },
+      "selector": "[name=\"category_id\"]",
+      "control": "select"
+    },
+    "priority": {
+      "type": "select",
+      "update": {
+        "type": "none"
+      }
+    },
+    "summary": {
+      "type": "string",
+      "update": {
+        "type": "none"
+      }
+    },
+    "description": {
+      "type": "string",
+      "update": {
+        "type": "none"
+      }
+    }
+  },
+  "connect": []
+}
