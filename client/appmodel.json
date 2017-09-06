@@ -140,6 +140,9 @@
       },
       "submit": {
         "type": "action"
+      },
+      "cancel": {
+        "type": "action"
       }
     }
   }
