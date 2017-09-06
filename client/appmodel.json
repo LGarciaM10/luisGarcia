@@ -149,6 +149,9 @@
         "update": {
           "type": "none"
         }
+      },
+      "submit": {
+        "type": "action"
       }
     }
   }
