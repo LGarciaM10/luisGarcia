@@ -38,7 +38,10 @@
       "control": "action.button"
     },
     "cancel": {
-      "type": "action"
+      "type": "action",
+      "selector": "a[href]",
+      "selectContains": "View Issues",
+      "control": "action.link"
     }
   },
   "connect": [
