@@ -132,12 +132,6 @@
           "type": "none"
         }
       },
-      "priority": {
-        "type": "select",
-        "update": {
-          "type": "none"
-        }
-      },
       "summary": {
         "type": "string",
         "update": {
